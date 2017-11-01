@@ -1,7 +1,7 @@
 //Jenkinsfile (Declarative Pipeline)
 skip = false
 // global var for routing nexus-repository through the script
-String gNEXUS_HOST = "not-defined"
+String gNEXUS_HOST = "nexus-ta-nexus.192.168.99.100.nip.io"
 STAGENAME = "dev"
 
 stage('prepare build environment') {
